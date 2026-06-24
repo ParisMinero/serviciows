@@ -1,0 +1,1018 @@
+[0.000000] (-) TimerEvent: {}
+[0.000766] (mi_primer_paquete) JobQueued: {'identifier': 'mi_primer_paquete', 'dependencies': OrderedDict()}
+[0.000790] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict()}
+[0.000803] (mi_primer_paquete) JobStarted: {'identifier': 'mi_primer_paquete'}
+[0.011532] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[0.099772] (-) TimerEvent: {}
+[0.137865] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[0.138057] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '/home/aldo/ros2_ws/src/micro-ROS-Agent/micro_ros_agent', '-DCMAKE_INSTALL_PREFIX=/home/aldo/ros2_ws/install/micro_ros_agent'], 'cwd': '/home/aldo/ros2_ws/build/micro_ros_agent', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aldo', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aldo', 'OLDPWD': '/home/aldo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '2870', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aldo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aldo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aldo-ThinkPad-E16-Gen-3:@/tmp/.ICE-unix/2827,unix/aldo-ThinkPad-E16-Gen-3:/tmp/.ICE-unix/2827', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3ff9d902_4e3e_46fe_92ed_f711838c7dfe', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1HJPO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.152', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aldo/ros2_ws/build/micro_ros_agent', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.195451] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199935] (-) TimerEvent: {}
+[0.203980] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.255936] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.262452] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.262547] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.262585] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.300051] (-) TimerEvent: {}
+[0.310313] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.324129] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.392878] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.399049] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.399443] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.399507] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.400119] (-) TimerEvent: {}
+[0.452407] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (0.3s)\n'}
+[0.454418] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.455155] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/aldo/ros2_ws/build/micro_ros_agent\n'}
+[0.458444] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[0.458717] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[0.459384] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aldo/ros2_ws/build/micro_ros_agent', '--', '-j16', '-l16'], 'cwd': '/home/aldo/ros2_ws/build/micro_ros_agent', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aldo', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aldo', 'OLDPWD': '/home/aldo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '2870', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aldo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aldo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aldo-ThinkPad-E16-Gen-3:@/tmp/.ICE-unix/2827,unix/aldo-ThinkPad-E16-Gen-3:/tmp/.ICE-unix/2827', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3ff9d902_4e3e_46fe_92ed_f711838c7dfe', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1HJPO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.152', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aldo/ros2_ws/build/micro_ros_agent', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.490870] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mCreating directories for 'xrceagent'\x1b[0m\n"}
+[0.500496] (-) TimerEvent: {}
+[0.508157] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'xrceagent'\x1b[0m\n"}
+[0.521365] (micro_ros_agent) StderrLine: {'line': b"Clonando en 'xrceagent'...\n"}
+[0.600639] (-) TimerEvent: {}
+[0.700879] (-) TimerEvent: {}
+[0.777295] (mi_primer_paquete) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/mi_primer_paquete', 'build', '--build-base', '/home/aldo/ros2_ws/build/mi_primer_paquete/build', 'install', '--record', '/home/aldo/ros2_ws/build/mi_primer_paquete/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/aldo/ros2_ws/src/mi_primer_paquete', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aldo', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aldo', 'OLDPWD': '/home/aldo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '2870', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aldo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aldo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aldo-ThinkPad-E16-Gen-3:@/tmp/.ICE-unix/2827,unix/aldo-ThinkPad-E16-Gen-3:/tmp/.ICE-unix/2827', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3ff9d902_4e3e_46fe_92ed_f711838c7dfe', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1HJPO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.152', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aldo/ros2_ws/build/mi_primer_paquete', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/aldo/ros2_ws/build/mi_primer_paquete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.800964] (-) TimerEvent: {}
+[0.901221] (-) TimerEvent: {}
+[0.908072] (mi_primer_paquete) StdoutLine: {'line': b'running egg_info\n'}
+[0.908650] (mi_primer_paquete) StdoutLine: {'line': b'creating ../../build/mi_primer_paquete/mi_primer_paquete.egg-info\n'}
+[0.915600] (mi_primer_paquete) StdoutLine: {'line': b'writing ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/PKG-INFO\n'}
+[0.916137] (mi_primer_paquete) StdoutLine: {'line': b'writing dependency_links to ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/dependency_links.txt\n'}
+[0.916246] (mi_primer_paquete) StdoutLine: {'line': b'writing entry points to ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/entry_points.txt\n'}
+[0.916339] (mi_primer_paquete) StdoutLine: {'line': b'writing requirements to ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/requires.txt\n'}
+[0.916419] (mi_primer_paquete) StdoutLine: {'line': b'writing top-level names to ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/top_level.txt\n'}
+[0.916483] (mi_primer_paquete) StdoutLine: {'line': b"writing manifest file '../../build/mi_primer_paquete/mi_primer_paquete.egg-info/SOURCES.txt'\n"}
+[0.930963] (mi_primer_paquete) StdoutLine: {'line': b"reading manifest file '../../build/mi_primer_paquete/mi_primer_paquete.egg-info/SOURCES.txt'\n"}
+[0.931418] (mi_primer_paquete) StdoutLine: {'line': b"writing manifest file '../../build/mi_primer_paquete/mi_primer_paquete.egg-info/SOURCES.txt'\n"}
+[0.931779] (mi_primer_paquete) StdoutLine: {'line': b'running build\n'}
+[0.931872] (mi_primer_paquete) StdoutLine: {'line': b'running build_py\n'}
+[0.931941] (mi_primer_paquete) StdoutLine: {'line': b'creating /home/aldo/ros2_ws/build/mi_primer_paquete/build\n'}
+[0.932188] (mi_primer_paquete) StdoutLine: {'line': b'creating /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib\n'}
+[0.932357] (mi_primer_paquete) StdoutLine: {'line': b'creating /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete\n'}
+[0.932437] (mi_primer_paquete) StdoutLine: {'line': b'copying mi_primer_paquete/CinematicaInversa.py -> /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete\n'}
+[0.932505] (mi_primer_paquete) StdoutLine: {'line': b'copying mi_primer_paquete/3GDL.py -> /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete\n'}
+[0.932567] (mi_primer_paquete) StdoutLine: {'line': b'copying mi_primer_paquete/cine_inver.py -> /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete\n'}
+[0.932639] (mi_primer_paquete) StdoutLine: {'line': b'copying mi_primer_paquete/Respaldo.py -> /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete\n'}
+[0.932698] (mi_primer_paquete) StdoutLine: {'line': b'copying mi_primer_paquete/clicked_point_a_juntas.py -> /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete\n'}
+[0.939249] (mi_primer_paquete) StdoutLine: {'line': b'copying mi_primer_paquete/__init__.py -> /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete\n'}
+[0.939452] (mi_primer_paquete) StdoutLine: {'line': b'copying mi_primer_paquete/punto_objetivo.py -> /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete\n'}
+[0.939538] (mi_primer_paquete) StdoutLine: {'line': b'copying mi_primer_paquete/publicador_juntas_terminal.py -> /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete\n'}
+[0.939612] (mi_primer_paquete) StdoutLine: {'line': b'running install\n'}
+[0.942376] (mi_primer_paquete) StdoutLine: {'line': b'running install_lib\n'}
+[0.949611] (mi_primer_paquete) StdoutLine: {'line': b'creating /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete\n'}
+[0.949829] (mi_primer_paquete) StdoutLine: {'line': b'copying /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete/CinematicaInversa.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete\n'}
+[0.949917] (mi_primer_paquete) StdoutLine: {'line': b'copying /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete/3GDL.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete\n'}
+[0.949994] (mi_primer_paquete) StdoutLine: {'line': b'copying /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete/cine_inver.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete\n'}
+[0.950744] (mi_primer_paquete) StdoutLine: {'line': b'copying /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete/Respaldo.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete\n'}
+[0.950922] (mi_primer_paquete) StdoutLine: {'line': b'copying /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete/clicked_point_a_juntas.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete\n'}
+[0.951014] (mi_primer_paquete) StdoutLine: {'line': b'copying /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete/__init__.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete\n'}
+[0.951098] (mi_primer_paquete) StdoutLine: {'line': b'copying /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete/punto_objetivo.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete\n'}
+[0.951168] (mi_primer_paquete) StdoutLine: {'line': b'copying /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete/publicador_juntas_terminal.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete\n'}
+[0.951239] (mi_primer_paquete) StdoutLine: {'line': b'byte-compiling /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/CinematicaInversa.py to CinematicaInversa.cpython-312.pyc\n'}
+[0.951308] (mi_primer_paquete) StdoutLine: {'line': b'byte-compiling /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/3GDL.py to 3GDL.cpython-312.pyc\n'}
+[0.951377] (mi_primer_paquete) StderrLine: {'line': b'  File "/home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/CinematicaInversa.py", line 17\n'}
+[0.951468] (mi_primer_paquete) StderrLine: {'line': b'    xi = Matrix([T_0_p[0, 3],import rclpy\n'}
+[0.951548] (mi_primer_paquete) StderrLine: {'line': b'                             ^^^^^^\n'}
+[0.951670] (mi_primer_paquete) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[0.951737] (mi_primer_paquete) StderrLine: {'line': b'\n'}
+[0.951815] (mi_primer_paquete) StdoutLine: {'line': b'byte-compiling /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/cine_inver.py to cine_inver.cpython-312.pyc\n'}
+[0.952470] (mi_primer_paquete) StdoutLine: {'line': b'byte-compiling /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/Respaldo.py to Respaldo.cpython-312.pyc\n'}
+[0.952611] (mi_primer_paquete) StderrLine: {'line': b"Sorry: IndentationError: expected an indented block after 'for' statement on line 123 (cine_inver.py, line 124)\n"}
+[0.953911] (mi_primer_paquete) StdoutLine: {'line': b'byte-compiling /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/clicked_point_a_juntas.py to clicked_point_a_juntas.cpython-312.pyc\n'}
+[0.955121] (mi_primer_paquete) StdoutLine: {'line': b'byte-compiling /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/__init__.py to __init__.cpython-312.pyc\n'}
+[0.955192] (mi_primer_paquete) StdoutLine: {'line': b'byte-compiling /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/punto_objetivo.py to punto_objetivo.cpython-312.pyc\n'}
+[0.955307] (mi_primer_paquete) StdoutLine: {'line': b'byte-compiling /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/publicador_juntas_terminal.py to publicador_juntas_terminal.cpython-312.pyc\n'}
+[0.955817] (mi_primer_paquete) StdoutLine: {'line': b'running install_data\n'}
+[0.955942] (mi_primer_paquete) StdoutLine: {'line': b'creating /home/aldo/ros2_ws/install/mi_primer_paquete/share/ament_index\n'}
+[0.956009] (mi_primer_paquete) StdoutLine: {'line': b'creating /home/aldo/ros2_ws/install/mi_primer_paquete/share/ament_index/resource_index\n'}
+[0.956072] (mi_primer_paquete) StdoutLine: {'line': b'creating /home/aldo/ros2_ws/install/mi_primer_paquete/share/ament_index/resource_index/packages\n'}
+[0.956142] (mi_primer_paquete) StdoutLine: {'line': b'copying resource/mi_primer_paquete -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/ament_index/resource_index/packages\n'}
+[0.956212] (mi_primer_paquete) StdoutLine: {'line': b'copying package.xml -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete\n'}
+[0.956344] (mi_primer_paquete) StdoutLine: {'line': b'creating /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/launch\n'}
+[0.956412] (mi_primer_paquete) StdoutLine: {'line': b'copying launch/display_2.launch.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/launch\n'}
+[0.956472] (mi_primer_paquete) StdoutLine: {'line': b'copying launch/display.launch.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/launch\n'}
+[0.956529] (mi_primer_paquete) StdoutLine: {'line': b'creating /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf\n'}
+[0.956586] (mi_primer_paquete) StdoutLine: {'line': b'copying urdf/prueba_2.urdf -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf\n'}
+[0.956680] (mi_primer_paquete) StdoutLine: {'line': b'copying urdf/robot.urdf -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf\n'}
+[0.958546] (mi_primer_paquete) StdoutLine: {'line': b'copying urdf/prueba.urdf -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf\n'}
+[0.965561] (mi_primer_paquete) StdoutLine: {'line': b'creating /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl\n'}
+[0.965774] (mi_primer_paquete) StdoutLine: {'line': b'copying urdf/Modelos_en_stl/Ensamblaje_base.stl -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl\n'}
+[0.967343] (mi_primer_paquete) StdoutLine: {'line': b'copying urdf/Modelos_en_stl/Ensamblaje_antebrazo.stl -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl\n'}
+[0.969237] (mi_primer_paquete) StdoutLine: {'line': b'copying urdf/Modelos_en_stl/Ensamblaje_brazo.stl -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl\n'}
+[0.969738] (mi_primer_paquete) StdoutLine: {'line': b'copying urdf/Modelos_en_stl/Ensamblaje_hombro.stl -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl\n'}
+[0.971495] (mi_primer_paquete) StdoutLine: {'line': b'creating /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/rviz\n'}
+[0.971664] (mi_primer_paquete) StdoutLine: {'line': b'copying rviz/mi_robot.rviz -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/rviz\n'}
+[0.971847] (mi_primer_paquete) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.980155] (mi_primer_paquete) StdoutLine: {'line': b'Copying ../../build/mi_primer_paquete/mi_primer_paquete.egg-info to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete-0.0.0-py3.12.egg-info\n'}
+[0.980395] (mi_primer_paquete) StdoutLine: {'line': b'running install_scripts\n'}
+[1.001393] (-) TimerEvent: {}
+[1.034911] (mi_primer_paquete) StdoutLine: {'line': b'Installing clicked_point_a_juntas script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete\n'}
+[1.035160] (mi_primer_paquete) StdoutLine: {'line': b'Installing publicador_juntas_terminal script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete\n'}
+[1.035267] (mi_primer_paquete) StdoutLine: {'line': b'Installing publisher script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete\n'}
+[1.035442] (mi_primer_paquete) StdoutLine: {'line': b'Installing punto_objetivo script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete\n'}
+[1.035532] (mi_primer_paquete) StdoutLine: {'line': b'Installing subscriber script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete\n'}
+[1.035836] (mi_primer_paquete) StdoutLine: {'line': b'Installing subscriber_2 script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete\n'}
+[1.036039] (mi_primer_paquete) StdoutLine: {'line': b'Installing subscriber_inter script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete\n'}
+[1.036119] (mi_primer_paquete) StdoutLine: {'line': b"writing list of installed files to '/home/aldo/ros2_ws/build/mi_primer_paquete/install.log'\n"}
+[1.050096] (mi_primer_paquete) CommandEnded: {'returncode': 0}
+[1.074021] (mi_primer_paquete) JobEnded: {'identifier': 'mi_primer_paquete', 'rc': 0}
+[1.101544] (-) TimerEvent: {}
+[1.201926] (-) TimerEvent: {}
+[1.302322] (-) TimerEvent: {}
+[1.402719] (-) TimerEvent: {}
+[1.503146] (-) TimerEvent: {}
+[1.603560] (-) TimerEvent: {}
+[1.703839] (-) TimerEvent: {}
+[1.804251] (-) TimerEvent: {}
+[1.904653] (-) TimerEvent: {}
+[2.005042] (-) TimerEvent: {}
+[2.105451] (-) TimerEvent: {}
+[2.205800] (-) TimerEvent: {}
+[2.306104] (-) TimerEvent: {}
+[2.351425] (micro_ros_agent) StderrLine: {'line': b'HEAD est\xc3\xa1 ahora en 7362281 Release v2.4.3\n'}
+[2.384200] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming update step for 'xrceagent'\x1b[0m\n"}
+[2.399555] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo patch step for 'xrceagent'\x1b[0m\n"}
+[2.406181] (-) TimerEvent: {}
+[2.413226] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming configure step for 'xrceagent'\x1b[0m\n"}
+[2.418565] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/aldo/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake\n'}
+[2.455073] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[2.463229] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.506358] (-) TimerEvent: {}
+[2.515258] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.521010] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.521404] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.521697] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.554101] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[2.562988] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.606555] (-) TimerEvent: {}
+[2.625682] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.631647] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.631964] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.632306] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.654954] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (0.2s)\n'}
+[2.656713] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.657303] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[2.670307] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming build step for 'xrceagent'\x1b[0m\n"}
+[2.694777] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mCreating directories for 'spdlog'\x1b[0m\n"}
+[2.706674] (-) TimerEvent: {}
+[2.711045] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'spdlog'\x1b[0m\n"}
+[2.724252] (micro_ros_agent) StderrLine: {'line': b"Clonando en 'spdlog'...\n"}
+[2.806843] (-) TimerEvent: {}
+[2.907179] (-) TimerEvent: {}
+[3.007608] (-) TimerEvent: {}
+[3.107949] (-) TimerEvent: {}
+[3.208245] (-) TimerEvent: {}
+[3.308652] (-) TimerEvent: {}
+[3.409069] (-) TimerEvent: {}
+[3.509385] (-) TimerEvent: {}
+[3.609847] (-) TimerEvent: {}
+[3.710157] (-) TimerEvent: {}
+[3.810516] (-) TimerEvent: {}
+[3.910837] (-) TimerEvent: {}
+[4.011220] (-) TimerEvent: {}
+[4.111658] (-) TimerEvent: {}
+[4.212176] (-) TimerEvent: {}
+[4.312501] (-) TimerEvent: {}
+[4.412747] (-) TimerEvent: {}
+[4.513024] (-) TimerEvent: {}
+[4.613306] (-) TimerEvent: {}
+[4.713643] (-) TimerEvent: {}
+[4.813976] (-) TimerEvent: {}
+[4.914338] (-) TimerEvent: {}
+[5.014578] (-) TimerEvent: {}
+[5.114811] (-) TimerEvent: {}
+[5.215166] (-) TimerEvent: {}
+[5.315524] (-) TimerEvent: {}
+[5.364006] (micro_ros_agent) StderrLine: {'line': b'HEAD est\xc3\xa1 ahora en eb322062 Bump version to 1.9.2\n'}
+[5.395926] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming update step for 'spdlog'\x1b[0m\n"}
+[5.411326] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo patch step for 'spdlog'\x1b[0m\n"}
+[5.415609] (-) TimerEvent: {}
+[5.424436] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming configure step for 'spdlog'\x1b[0m\n"}
+[5.429042] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/tmp/spdlog-cache-.cmake\n'}
+[5.464083] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[5.474257] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.515741] (-) TimerEvent: {}
+[5.533852] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.539592] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.539781] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.540015] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.540350] (micro_ros_agent) StdoutLine: {'line': b'-- Build spdlog: 1.9.2\n'}
+[5.543484] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[5.613890] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.614301] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.614348] (micro_ros_agent) StdoutLine: {'line': b'-- Build type: Release\n'}
+[5.614737] (micro_ros_agent) StdoutLine: {'line': b'-- Generating example(s)\n'}
+[5.615246] (micro_ros_agent) StdoutLine: {'line': b'-- Generating install\n'}
+[5.615790] (-) TimerEvent: {}
+[5.622841] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (0.2s)\n'}
+[5.626504] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[5.626930] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/spdlog/src/spdlog-build\n'}
+[5.639820] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming build step for 'spdlog'\x1b[0m\n"}
+[5.664159] (micro_ros_agent) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o\x1b[0m\n'}
+[5.664429] (micro_ros_agent) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/spdlog.cpp.o\x1b[0m\n'}
+[5.664515] (micro_ros_agent) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/file_sinks.cpp.o\x1b[0m\n'}
+[5.664597] (micro_ros_agent) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/color_sinks.cpp.o\x1b[0m\n'}
+[5.664747] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/async.cpp.o\x1b[0m\n'}
+[5.664836] (micro_ros_agent) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/cfg.cpp.o\x1b[0m\n'}
+[5.669391] (micro_ros_agent) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/spdlog.dir/src/fmt.cpp.o\x1b[0m\n'}
+[5.716193] (-) TimerEvent: {}
+[5.816512] (-) TimerEvent: {}
+[5.916794] (-) TimerEvent: {}
+[6.017052] (-) TimerEvent: {}
+[6.117328] (-) TimerEvent: {}
+[6.217585] (-) TimerEvent: {}
+[6.317828] (-) TimerEvent: {}
+[6.418121] (-) TimerEvent: {}
+[6.518514] (-) TimerEvent: {}
+[6.618876] (-) TimerEvent: {}
+[6.719260] (-) TimerEvent: {}
+[6.819682] (-) TimerEvent: {}
+[6.919917] (-) TimerEvent: {}
+[7.020182] (-) TimerEvent: {}
+[7.120498] (-) TimerEvent: {}
+[7.220821] (-) TimerEvent: {}
+[7.321100] (-) TimerEvent: {}
+[7.421423] (-) TimerEvent: {}
+[7.521756] (-) TimerEvent: {}
+[7.622081] (-) TimerEvent: {}
+[7.722418] (-) TimerEvent: {}
+[7.822729] (-) TimerEvent: {}
+[7.923074] (-) TimerEvent: {}
+[8.023391] (-) TimerEvent: {}
+[8.123777] (-) TimerEvent: {}
+[8.224030] (-) TimerEvent: {}
+[8.324352] (-) TimerEvent: {}
+[8.424702] (-) TimerEvent: {}
+[8.525120] (-) TimerEvent: {}
+[8.625433] (-) TimerEvent: {}
+[8.725769] (-) TimerEvent: {}
+[8.826083] (-) TimerEvent: {}
+[8.926424] (-) TimerEvent: {}
+[9.026740] (-) TimerEvent: {}
+[9.127066] (-) TimerEvent: {}
+[9.227351] (-) TimerEvent: {}
+[9.327644] (-) TimerEvent: {}
+[9.428024] (-) TimerEvent: {}
+[9.528412] (-) TimerEvent: {}
+[9.628729] (-) TimerEvent: {}
+[9.729031] (-) TimerEvent: {}
+[9.829334] (-) TimerEvent: {}
+[9.929612] (-) TimerEvent: {}
+[10.029943] (-) TimerEvent: {}
+[10.130342] (-) TimerEvent: {}
+[10.230751] (-) TimerEvent: {}
+[10.331092] (-) TimerEvent: {}
+[10.431466] (-) TimerEvent: {}
+[10.531844] (-) TimerEvent: {}
+[10.632229] (-) TimerEvent: {}
+[10.732629] (-) TimerEvent: {}
+[10.832995] (-) TimerEvent: {}
+[10.933265] (-) TimerEvent: {}
+[11.033549] (-) TimerEvent: {}
+[11.133908] (-) TimerEvent: {}
+[11.234275] (-) TimerEvent: {}
+[11.334565] (-) TimerEvent: {}
+[11.434904] (-) TimerEvent: {}
+[11.571290] (-) TimerEvent: {}
+[11.671576] (-) TimerEvent: {}
+[11.771887] (-) TimerEvent: {}
+[11.872188] (-) TimerEvent: {}
+[11.965295] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX static library libspdlog.a\x1b[0m\n'}
+[11.972272] (-) TimerEvent: {}
+[11.990547] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] Built target spdlog\n'}
+[12.002448] (micro_ros_agent) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object example/CMakeFiles/example.dir/example.cpp.o\x1b[0m\n'}
+[12.072452] (-) TimerEvent: {}
+[12.172746] (-) TimerEvent: {}
+[12.273030] (-) TimerEvent: {}
+[12.373421] (-) TimerEvent: {}
+[12.473794] (-) TimerEvent: {}
+[12.574154] (-) TimerEvent: {}
+[12.674567] (-) TimerEvent: {}
+[12.774936] (-) TimerEvent: {}
+[12.875206] (-) TimerEvent: {}
+[12.975523] (-) TimerEvent: {}
+[13.075892] (-) TimerEvent: {}
+[13.176219] (-) TimerEvent: {}
+[13.276540] (-) TimerEvent: {}
+[13.376928] (-) TimerEvent: {}
+[13.477387] (-) TimerEvent: {}
+[13.577843] (-) TimerEvent: {}
+[13.678237] (-) TimerEvent: {}
+[13.778523] (-) TimerEvent: {}
+[13.878865] (-) TimerEvent: {}
+[13.979176] (-) TimerEvent: {}
+[14.079513] (-) TimerEvent: {}
+[14.179916] (-) TimerEvent: {}
+[14.280253] (-) TimerEvent: {}
+[14.380636] (-) TimerEvent: {}
+[14.481054] (-) TimerEvent: {}
+[14.581443] (-) TimerEvent: {}
+[14.681854] (-) TimerEvent: {}
+[14.782229] (-) TimerEvent: {}
+[14.882580] (-) TimerEvent: {}
+[14.983022] (-) TimerEvent: {}
+[15.083399] (-) TimerEvent: {}
+[15.183742] (-) TimerEvent: {}
+[15.284194] (-) TimerEvent: {}
+[15.384586] (-) TimerEvent: {}
+[15.484962] (-) TimerEvent: {}
+[15.585409] (-) TimerEvent: {}
+[15.685803] (-) TimerEvent: {}
+[15.786065] (-) TimerEvent: {}
+[15.886452] (-) TimerEvent: {}
+[15.986692] (-) TimerEvent: {}
+[16.022792] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable example\x1b[0m\n'}
+[16.075273] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target example\n'}
+[16.086868] (-) TimerEvent: {}
+[16.090394] (micro_ros_agent) StdoutLine: {'line': b"[ 43%] \x1b[34m\x1b[1mPerforming install step for 'spdlog'\x1b[0m\n"}
+[16.118256] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] Built target spdlog\n'}
+[16.130522] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target example\n'}
+[16.139897] (micro_ros_agent) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[16.144265] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[16.144340] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include\n'}
+[16.144386] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog\n'}
+[16.144450] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async.h\n'}
+[16.144495] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt\n'}
+[16.144557] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bin_to_hex.h\n'}
+[16.144622] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/chrono.h\n'}
+[16.144660] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/ostr.h\n'}
+[16.144727] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/compile.h\n'}
+[16.144766] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/fmt.h\n'}
+[16.144802] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/xchar.h\n'}
+[16.144865] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/version.h\n'}
+[16.144901] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks\n'}
+[16.144943] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink-inl.h\n'}
+[16.144980] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink-inl.h\n'}
+[16.145030] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/qt_sinks.h\n'}
+[16.145065] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/basic_file_sink.h\n'}
+[16.145101] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink-inl.h\n'}
+[16.145148] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/wincolor_sink.h\n'}
+[16.145191] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks-inl.h\n'}
+[16.145227] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/syslog_sink.h\n'}
+[16.145275] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/tcp_sink.h\n'}
+[16.145311] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink-inl.h\n'}
+[16.145371] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/win_eventlog_sink.h\n'}
+[16.145435] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink-inl.h\n'}
+[16.145468] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/sink.h\n'}
+[16.145504] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_sinks.h\n'}
+[16.145552] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/base_sink.h\n'}
+[16.145587] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink.h\n'}
+[16.145622] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/hourly_file_sink.h\n'}
+[16.145671] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ringbuffer_sink.h\n'}
+[16.145708] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/mongo_sink.h\n'}
+[16.145770] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/android_sink.h\n'}
+[16.145814] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/msvc_sink.h\n'}
+[16.145854] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ostream_sink.h\n'}
+[16.145890] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/daily_file_sink.h\n'}
+[16.145938] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/dup_filter_sink.h\n'}
+[16.145995] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks.h\n'}
+[16.146031] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/stdout_color_sinks-inl.h\n'}
+[16.146079] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/rotating_file_sink.h\n'}
+[16.146113] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/ansicolor_sink-inl.h\n'}
+[16.146148] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/dist_sink.h\n'}
+[16.146195] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/null_sink.h\n'}
+[16.146231] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/sinks/systemd_sink.h\n'}
+[16.146278] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async_logger.h\n'}
+[16.146315] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/logger.h\n'}
+[16.146359] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/logger-inl.h\n'}
+[16.146391] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/spdlog.h\n'}
+[16.146435] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/common.h\n'}
+[16.146496] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/async_logger-inl.h\n'}
+[16.146531] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/tweakme.h\n'}
+[16.146591] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/common-inl.h\n'}
+[16.146668] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg\n'}
+[16.146703] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers-inl.h\n'}
+[16.146766] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/env.h\n'}
+[16.146801] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/argv.h\n'}
+[16.146861] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/cfg/helpers.h\n'}
+[16.146900] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter-inl.h\n'}
+[16.146965] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details\n'}
+[16.147003] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool-inl.h\n'}
+[16.147038] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker-inl.h\n'}
+[16.147084] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client-windows.h\n'}
+[16.147120] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/thread_pool.h\n'}
+[16.147155] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer-inl.h\n'}
+[16.147205] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg-inl.h\n'}
+[16.147239] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/os-inl.h\n'}
+[16.147275] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/synchronous_factory.h\n'}
+[16.147322] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/periodic_worker.h\n'}
+[16.147360] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper.h\n'}
+[16.147409] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/console_globals.h\n'}
+[16.147443] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg_buffer.h\n'}
+[16.147477] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/fmt_helper.h\n'}
+[16.147524] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/tcp_client.h\n'}
+[16.147568] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/file_helper-inl.h\n'}
+[16.147603] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/null_mutex.h\n'}
+[16.147646] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer.h\n'}
+[16.147693] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/circular_q.h\n'}
+[16.147729] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/windows_include.h\n'}
+[16.147780] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/registry-inl.h\n'}
+[16.147815] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/mpmc_blocking_q.h\n'}
+[16.147862] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/log_msg.h\n'}
+[16.147898] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/registry.h\n'}
+[16.147959] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/backtracer-inl.h\n'}
+[16.147999] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/details/os.h\n'}
+[16.148060] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/formatter.h\n'}
+[16.148097] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fwd.h\n'}
+[16.148159] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/stopwatch.h\n'}
+[16.148193] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/pattern_formatter.h\n'}
+[16.148224] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/spdlog-inl.h\n'}
+[16.148266] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/libspdlog.a\n'}
+[16.148966] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled/\n'}
+[16.149046] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//core.h\n'}
+[16.149084] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//printf.h\n'}
+[16.149149] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ostream.h\n'}
+[16.149208] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format-inl.h\n'}
+[16.149273] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//chrono.h\n'}
+[16.149350] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//compile.h\n'}
+[16.149410] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//ranges.h\n'}
+[16.149472] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//color.h\n'}
+[16.149534] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//locale.h\n'}
+[16.149570] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//format.h\n'}
+[16.149627] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//args.h\n'}
+[16.149688] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//os.h\n'}
+[16.149750] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/include/spdlog/fmt/bundled//xchar.h\n'}
+[16.149812] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/pkgconfig/spdlog.pc\n'}
+[16.149895] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets.cmake\n'}
+[16.149984] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigTargets-release.cmake\n'}
+[16.150044] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfig.cmake\n'}
+[16.150105] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/temp_install/spdlog-1.9.2/lib/cmake/spdlog/spdlogConfigVersion.cmake\n'}
+[16.159959] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mCompleted 'spdlog'\x1b[0m\n"}
+[16.176668] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] Built target spdlog\n'}
+[16.186838] (micro_ros_agent) StdoutLine: {'line': b"[ 56%] \x1b[34m\x1b[1mCreating directories for 'uagent'\x1b[0m\n"}
+[16.186953] (-) TimerEvent: {}
+[16.200531] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mNo download step for 'uagent'\x1b[0m\n"}
+[16.212516] (micro_ros_agent) StdoutLine: {'line': b"[ 68%] \x1b[34m\x1b[1mNo update step for 'uagent'\x1b[0m\n"}
+[16.224420] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mNo patch step for 'uagent'\x1b[0m\n"}
+[16.236258] (micro_ros_agent) StdoutLine: {'line': b"[ 81%] \x1b[34m\x1b[1mPerforming configure step for 'uagent'\x1b[0m\n"}
+[16.240819] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake\n'}
+[16.244212] (micro_ros_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[16.252158] (micro_ros_agent) StdoutLine: {'line': b'-- Found TinyXML2: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2\n'}
+[16.287049] (-) TimerEvent: {}
+[16.297724] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[16.301693] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[16.353875] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[16.354473] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[16.357045] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (0.1s)\n'}
+[16.362346] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[16.362781] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/aldo/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[16.373379] (micro_ros_agent) StdoutLine: {'line': b"[ 87%] \x1b[34m\x1b[1mPerforming build step for 'uagent'\x1b[0m\n"}
+[16.387190] (-) TimerEvent: {}
+[16.396981] (micro_ros_agent) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/AgentInstance.cpp.o\x1b[0m\n'}
+[16.397480] (micro_ros_agent) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Agent.cpp.o\x1b[0m\n'}
+[16.397932] (micro_ros_agent) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/Root.cpp.o\x1b[0m\n'}
+[16.398163] (micro_ros_agent) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/processor/Processor.cpp.o\x1b[0m\n'}
+[16.398399] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/participant/Participant.cpp.o\x1b[0m\n'}
+[16.398622] (micro_ros_agent) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/client/ProxyClient.cpp.o\x1b[0m\n'}
+[16.402924] (micro_ros_agent) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/topic/Topic.cpp.o\x1b[0m\n'}
+[16.403219] (micro_ros_agent) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/requester/Requester.cpp.o\x1b[0m\n'}
+[16.403329] (micro_ros_agent) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/publisher/Publisher.cpp.o\x1b[0m\n'}
+[16.403421] (micro_ros_agent) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/subscriber/Subscriber.cpp.o\x1b[0m\n'}
+[16.404489] (micro_ros_agent) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datawriter/DataWriter.cpp.o\x1b[0m\n'}
+[16.405460] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/replier/Replier.cpp.o\x1b[0m\n'}
+[16.405609] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/MessageHeader.cpp.o\x1b[0m\n'}
+[16.405705] (micro_ros_agent) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/XRCETypes.cpp.o\x1b[0m\n'}
+[16.406345] (micro_ros_agent) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/datareader/DataReader.cpp.o\x1b[0m\n'}
+[16.424407] (micro_ros_agent) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/object/XRCEObject.cpp.o\x1b[0m\n'}
+[16.487835] (-) TimerEvent: {}
+[16.588138] (-) TimerEvent: {}
+[16.688455] (-) TimerEvent: {}
+[16.788843] (-) TimerEvent: {}
+[16.889845] (-) TimerEvent: {}
+[16.990167] (-) TimerEvent: {}
+[17.071912] (micro_ros_agent) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/SubMessageHeader.cpp.o\x1b[0m\n'}
+[17.090295] (-) TimerEvent: {}
+[17.192982] (-) TimerEvent: {}
+[17.275655] (micro_ros_agent) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/utils/ArgumentParser.cpp.o\x1b[0m\n'}
+[17.281155] (micro_ros_agent) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/InputMessage.cpp.o\x1b[0m\n'}
+[17.284001] (micro_ros_agent) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/message/OutputMessage.cpp.o\x1b[0m\n'}
+[17.293934] (-) TimerEvent: {}
+[17.380204] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/Server.cpp.o\x1b[0m\n'}
+[17.394849] (-) TimerEvent: {}
+[17.495277] (-) TimerEvent: {}
+[17.596074] (-) TimerEvent: {}
+[17.696901] (-) TimerEvent: {}
+[17.718291] (micro_ros_agent) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/stream_framing/StreamFramingProtocol.cpp.o\x1b[0m\n'}
+[17.785059] (micro_ros_agent) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/custom/CustomAgent.cpp.o\x1b[0m\n'}
+[17.797019] (-) TimerEvent: {}
+[17.897372] (-) TimerEvent: {}
+[18.002037] (-) TimerEvent: {}
+[18.101923] (micro_ros_agent) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv4AgentLinux.cpp.o\x1b[0m\n'}
+[18.102180] (-) TimerEvent: {}
+[18.202477] (-) TimerEvent: {}
+[18.302857] (-) TimerEvent: {}
+[18.432903] (-) TimerEvent: {}
+[18.536910] (-) TimerEvent: {}
+[18.637468] (-) TimerEvent: {}
+[18.642303] (micro_ros_agent) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/udp/UDPv6AgentLinux.cpp.o\x1b[0m\n'}
+[18.737593] (-) TimerEvent: {}
+[18.837981] (-) TimerEvent: {}
+[18.938338] (-) TimerEvent: {}
+[19.040978] (-) TimerEvent: {}
+[19.142478] (-) TimerEvent: {}
+[19.242838] (-) TimerEvent: {}
+[19.343184] (-) TimerEvent: {}
+[19.448126] (-) TimerEvent: {}
+[19.548469] (-) TimerEvent: {}
+[19.648841] (-) TimerEvent: {}
+[19.740459] (micro_ros_agent) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv4AgentLinux.cpp.o\x1b[0m\n'}
+[19.748966] (-) TimerEvent: {}
+[19.850541] (-) TimerEvent: {}
+[19.933193] (micro_ros_agent) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/tcp/TCPv6AgentLinux.cpp.o\x1b[0m\n'}
+[19.950837] (-) TimerEvent: {}
+[20.054844] (-) TimerEvent: {}
+[20.155187] (-) TimerEvent: {}
+[20.190445] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/SerialAgentLinux.cpp.o\x1b[0m\n'}
+[20.255312] (-) TimerEvent: {}
+[20.355656] (-) TimerEvent: {}
+[20.458991] (-) TimerEvent: {}
+[20.562918] (-) TimerEvent: {}
+[20.666948] (-) TimerEvent: {}
+[20.690870] (micro_ros_agent) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiSerialAgentLinux.cpp.o\x1b[0m\n'}
+[20.692572] (micro_ros_agent) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/TermiosAgentLinux.cpp.o\x1b[0m\n'}
+[20.767838] (-) TimerEvent: {}
+[20.868169] (-) TimerEvent: {}
+[20.968570] (-) TimerEvent: {}
+[21.015812] (micro_ros_agent) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/MultiTermiosAgentLinux.cpp.o\x1b[0m\n'}
+[21.068699] (-) TimerEvent: {}
+[21.083815] (micro_ros_agent) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/serial/PseudoTerminalAgentLinux.cpp.o\x1b[0m\n'}
+[21.098714] (micro_ros_agent) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServerLinux.cpp.o\x1b[0m\n'}
+[21.106811] (micro_ros_agent) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/can/CanAgentLinux.cpp.o\x1b[0m\n'}
+[21.168826] (-) TimerEvent: {}
+[21.188816] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/transport/discovery/DiscoveryServer.cpp.o\x1b[0m\n'}
+[21.268948] (-) TimerEvent: {}
+[21.369307] (-) TimerEvent: {}
+[21.379109] (micro_ros_agent) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/types/TopicPubSubType.cpp.o\x1b[0m\n'}
+[21.472859] (-) TimerEvent: {}
+[21.573183] (-) TimerEvent: {}
+[21.673490] (-) TimerEvent: {}
+[21.773812] (-) TimerEvent: {}
+[21.874117] (-) TimerEvent: {}
+[21.974418] (-) TimerEvent: {}
+[22.050317] (micro_ros_agent) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/xmlobjects/xmlobjects.cpp.o\x1b[0m\n'}
+[22.074537] (-) TimerEvent: {}
+[22.174895] (-) TimerEvent: {}
+[22.278295] (-) TimerEvent: {}
+[22.378911] (-) TimerEvent: {}
+[22.421860] (micro_ros_agent) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastEntities.cpp.o\x1b[0m\n'}
+[22.479009] (-) TimerEvent: {}
+[22.579314] (-) TimerEvent: {}
+[22.636891] (micro_ros_agent) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fast/FastMiddleware.cpp.o\x1b[0m\n'}
+[22.679437] (-) TimerEvent: {}
+[22.779766] (-) TimerEvent: {}
+[22.880067] (-) TimerEvent: {}
+[22.972047] (micro_ros_agent) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSEntities.cpp.o\x1b[0m\n'}
+[22.980294] (-) TimerEvent: {}
+[23.081840] (-) TimerEvent: {}
+[23.096302] (micro_ros_agent) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object CMakeFiles/microxrcedds_agent.dir/src/cpp/middleware/fastdds/FastDDSMiddleware.cpp.o\x1b[0m\n'}
+[23.181964] (-) TimerEvent: {}
+[23.282324] (-) TimerEvent: {}
+[23.383789] (-) TimerEvent: {}
+[23.484134] (-) TimerEvent: {}
+[23.584550] (-) TimerEvent: {}
+[23.685209] (-) TimerEvent: {}
+[23.785816] (-) TimerEvent: {}
+[23.886391] (-) TimerEvent: {}
+[23.986889] (-) TimerEvent: {}
+[24.087418] (-) TimerEvent: {}
+[24.187882] (-) TimerEvent: {}
+[24.288435] (-) TimerEvent: {}
+[24.388873] (-) TimerEvent: {}
+[24.489242] (-) TimerEvent: {}
+[24.589616] (-) TimerEvent: {}
+[24.689987] (-) TimerEvent: {}
+[24.790351] (-) TimerEvent: {}
+[24.890727] (-) TimerEvent: {}
+[24.991015] (-) TimerEvent: {}
+[25.091400] (-) TimerEvent: {}
+[25.191775] (-) TimerEvent: {}
+[25.292124] (-) TimerEvent: {}
+[25.392447] (-) TimerEvent: {}
+[25.492738] (-) TimerEvent: {}
+[25.593011] (-) TimerEvent: {}
+[25.693266] (-) TimerEvent: {}
+[25.793541] (-) TimerEvent: {}
+[25.893874] (-) TimerEvent: {}
+[25.994225] (-) TimerEvent: {}
+[26.094588] (-) TimerEvent: {}
+[26.194947] (-) TimerEvent: {}
+[26.295194] (-) TimerEvent: {}
+[26.395489] (-) TimerEvent: {}
+[26.495744] (-) TimerEvent: {}
+[26.596086] (-) TimerEvent: {}
+[26.696429] (-) TimerEvent: {}
+[26.796750] (-) TimerEvent: {}
+[26.897144] (-) TimerEvent: {}
+[26.997579] (-) TimerEvent: {}
+[27.097913] (-) TimerEvent: {}
+[27.198275] (-) TimerEvent: {}
+[27.298627] (-) TimerEvent: {}
+[27.398987] (-) TimerEvent: {}
+[27.499338] (-) TimerEvent: {}
+[27.599688] (-) TimerEvent: {}
+[27.700094] (-) TimerEvent: {}
+[27.800505] (-) TimerEvent: {}
+[27.900857] (-) TimerEvent: {}
+[28.001242] (-) TimerEvent: {}
+[28.101658] (-) TimerEvent: {}
+[28.201997] (-) TimerEvent: {}
+[28.302338] (-) TimerEvent: {}
+[28.402667] (-) TimerEvent: {}
+[28.503012] (-) TimerEvent: {}
+[28.603341] (-) TimerEvent: {}
+[28.703683] (-) TimerEvent: {}
+[28.804093] (-) TimerEvent: {}
+[28.904520] (-) TimerEvent: {}
+[29.004847] (-) TimerEvent: {}
+[29.105179] (-) TimerEvent: {}
+[29.205482] (-) TimerEvent: {}
+[29.305886] (-) TimerEvent: {}
+[29.406309] (-) TimerEvent: {}
+[29.506665] (-) TimerEvent: {}
+[29.607090] (-) TimerEvent: {}
+[29.707418] (-) TimerEvent: {}
+[29.807733] (-) TimerEvent: {}
+[29.908082] (-) TimerEvent: {}
+[30.008521] (-) TimerEvent: {}
+[30.108961] (-) TimerEvent: {}
+[30.209381] (-) TimerEvent: {}
+[30.309750] (-) TimerEvent: {}
+[30.410102] (-) TimerEvent: {}
+[30.510481] (-) TimerEvent: {}
+[30.610779] (-) TimerEvent: {}
+[30.711166] (-) TimerEvent: {}
+[30.811512] (-) TimerEvent: {}
+[30.911851] (-) TimerEvent: {}
+[31.012129] (-) TimerEvent: {}
+[31.112392] (-) TimerEvent: {}
+[31.212694] (-) TimerEvent: {}
+[31.258407] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libmicroxrcedds_agent.so\x1b[0m\n'}
+[31.312838] (-) TimerEvent: {}
+[31.413117] (-) TimerEvent: {}
+[31.503500] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[31.513272] (-) TimerEvent: {}
+[31.517598] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'uagent'\x1b[0m\n"}
+[31.529844] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'uagent'\x1b[0m\n"}
+[31.545486] (micro_ros_agent) StdoutLine: {'line': b'Built target uagent\n'}
+[31.559006] (micro_ros_agent) StdoutLine: {'line': b"[ 43%] \x1b[34m\x1b[1mPerforming install step for 'xrceagent'\x1b[0m\n"}
+[31.613361] (-) TimerEvent: {}
+[31.614081] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target microxrcedds_agent\n'}
+[31.624076] (micro_ros_agent) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[31.629100] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[31.629165] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.3\n'}
+[31.630925] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4\n'}
+[31.631222] (micro_ros_agent) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aldo/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so.2.4.3" to ""\n'}
+[31.631291] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/lib/libmicroxrcedds_agent.so\n'}
+[31.631326] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent\n'}
+[31.631359] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport\n'}
+[31.631393] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/SessionManager.hpp\n'}
+[31.631427] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/can\n'}
+[31.631461] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/can/CanAgentLinux.hpp\n'}
+[31.631779] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp\n'}
+[31.631860] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentLinux.hpp\n'}
+[31.631894] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv6AgentWindows.hpp\n'}
+[31.631928] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPServerBase.hpp\n'}
+[31.631962] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPConnection.hpp\n'}
+[31.631997] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentWindows.hpp\n'}
+[31.632030] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/tcp/TCPv4AgentLinux.hpp\n'}
+[31.632065] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp\n'}
+[31.632099] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentWindows.hpp\n'}
+[31.632136] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv4AgentLinux.hpp\n'}
+[31.632170] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentLinux.hpp\n'}
+[31.632203] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/udp/UDPv6AgentWindows.hpp\n'}
+[31.632235] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util\n'}
+[31.632268] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceWindows.hpp\n'}
+[31.632427] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/util/InterfaceLinux.hpp\n'}
+[31.632480] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial\n'}
+[31.632512] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/TermiosAgentLinux.hpp\n'}
+[31.632546] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiTermiosAgentLinux.hpp\n'}
+[31.632584] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/SerialAgentLinux.hpp\n'}
+[31.632621] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/baud_rate_table_linux.h\n'}
+[31.632658] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/MultiSerialAgentLinux.hpp\n'}
+[31.632695] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/serial/PseudoTerminalAgentLinux.hpp\n'}
+[31.632731] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint\n'}
+[31.632865] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CanEndPoint.hpp\n'}
+[31.632903] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv6EndPoint.hpp\n'}
+[31.632971] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/MultiSerialEndPoint.hpp\n'}
+[31.633025] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/CustomEndPoint.hpp\n'}
+[31.633064] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/SerialEndPoint.hpp\n'}
+[31.633122] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/endpoint/IPv4EndPoint.hpp\n'}
+[31.633159] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/Server.hpp\n'}
+[31.633200] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing\n'}
+[31.633236] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/stream_framing/StreamFramingProtocol.hpp\n'}
+[31.633273] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/custom\n'}
+[31.633309] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/custom/CustomAgent.hpp\n'}
+[31.633390] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery\n'}
+[31.633428] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerLinux.hpp\n'}
+[31.633466] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServer.hpp\n'}
+[31.633504] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/discovery/DiscoveryServerWindows.hpp\n'}
+[31.633541] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/TransportRc.hpp\n'}
+[31.633577] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p\n'}
+[31.633614] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscoverer.hpp\n'}
+[31.633652] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/transport/p2p/AgentDiscovererLinux.hpp\n'}
+[31.633689] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/reader\n'}
+[31.633727] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/reader/Reader.hpp\n'}
+[31.633772] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/Root.hpp\n'}
+[31.633811] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/object\n'}
+[31.633849] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/object/XRCEObject.hpp\n'}
+[31.633888] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/topic\n'}
+[31.633927] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/topic/Topic.hpp\n'}
+[31.633965] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/types\n'}
+[31.634036] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/Optional.hpp\n'}
+[31.634074] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/SubMessageHeader.hpp\n'}
+[31.634130] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/TopicPubSubType.hpp\n'}
+[31.634169] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/XRCETypes.hpp\n'}
+[31.634207] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/types/MessageHeader.hpp\n'}
+[31.634245] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/logger\n'}
+[31.634282] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/logger/Logger.hpp\n'}
+[31.634320] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/datareader\n'}
+[31.634358] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/datareader/DataReader.hpp\n'}
+[31.634396] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/message\n'}
+[31.634457] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/message/InputMessage.hpp\n'}
+[31.634495] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/message/OutputMessage.hpp\n'}
+[31.634533] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/message/Packet.hpp\n'}
+[31.634570] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils\n'}
+[31.634609] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SeqNum.hpp\n'}
+[31.634647] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutex.hpp\n'}
+[31.634689] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Conversion.hpp\n'}
+[31.634724] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Time.hpp\n'}
+[31.634762] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Functions.hpp\n'}
+[31.634796] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/TokenBucket.hpp\n'}
+[31.634829] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/ArgumentParser.hpp\n'}
+[31.634981] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/SharedMutexPriority.hpp\n'}
+[31.635306] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/utils/Color.hpp\n'}
+[31.635357] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/AgentInstance.hpp\n'}
+[31.635398] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware\n'}
+[31.635438] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds\n'}
+[31.635474] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSEntities.hpp\n'}
+[31.635517] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fastdds/FastDDSMiddleware.hpp\n'}
+[31.635555] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast\n'}
+[31.635606] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastMiddleware.hpp\n'}
+[31.635647] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/fast/FastEntities.hpp\n'}
+[31.635687] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/Middleware.hpp\n'}
+[31.635726] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils\n'}
+[31.635773] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/utils/Callbacks.hpp\n'}
+[31.635813] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced\n'}
+[31.635853] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedEntities.hpp\n'}
+[31.635890] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/middleware/ced/CedMiddleware.hpp\n'}
+[31.635930] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/publisher\n'}
+[31.635970] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/publisher/Publisher.hpp\n'}
+[31.636010] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/visibility.hpp\n'}
+[31.636049] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler\n'}
+[31.636087] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler/Scheduler.hpp\n'}
+[31.636122] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/scheduler/PacketScheduler.hpp\n'}
+[31.636167] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/Agent.hpp\n'}
+[31.636201] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/participant\n'}
+[31.636245] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/participant/Participant.hpp\n'}
+[31.636284] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/replier\n'}
+[31.636323] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/replier/Replier.hpp\n'}
+[31.636363] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/processor\n'}
+[31.636397] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/processor/Processor.hpp\n'}
+[31.636428] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/subscriber\n'}
+[31.636460] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/subscriber/Subscriber.hpp\n'}
+[31.636500] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/client\n'}
+[31.636534] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/ProxyClient.hpp\n'}
+[31.636573] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session\n'}
+[31.636605] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/Session.hpp\n'}
+[31.636647] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream\n'}
+[31.636687] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/InputStream.hpp\n'}
+[31.636721] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/stream/OutputStream.hpp\n'}
+[31.636773] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/client/session/SessionInfo.hpp\n'}
+[31.636812] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/requester\n'}
+[31.636845] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/requester/Requester.hpp\n'}
+[31.636878] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/p2p\n'}
+[31.636923] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClient.hpp\n'}
+[31.636962] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/p2p/InternalClientManager.hpp\n'}
+[31.637000] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/datawriter\n'}
+[31.637038] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/datawriter/DataWriter.hpp\n'}
+[31.637075] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets.cmake\n'}
+[31.637112] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentTargets-release.cmake\n'}
+[31.637149] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/uxr/agent/config.hpp\n'}
+[31.637182] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/LICENSE\n'}
+[31.637225] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfig.cmake\n'}
+[31.637258] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/microxrcedds_agent/cmake/microxrcedds_agentConfigVersion.cmake\n'}
+[31.637289] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/aldo/ros2_ws/install/micro_ros_agent\n'}
+[31.637322] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/aldo/ros2_ws/install/micro_ros_agent/include\n'}
+[31.637361] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog\n'}
+[31.637399] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/async.h\n'}
+[31.637433] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt\n'}
+[31.637465] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bin_to_hex.h\n'}
+[31.637504] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/chrono.h\n'}
+[31.637540] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/ostr.h\n'}
+[31.637573] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/compile.h\n'}
+[31.637604] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled\n'}
+[31.637635] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/core.h\n'}
+[31.637666] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/printf.h\n'}
+[31.637697] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ostream.h\n'}
+[31.637729] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format-inl.h\n'}
+[31.637781] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/chrono.h\n'}
+[31.637832] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/compile.h\n'}
+[31.637866] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/ranges.h\n'}
+[31.637903] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/color.h\n'}
+[31.637940] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/locale.h\n'}
+[31.637985] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/format.h\n'}
+[31.638026] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/args.h\n'}
+[31.638066] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/os.h\n'}
+[31.638100] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/bundled/xchar.h\n'}
+[31.638138] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/fmt.h\n'}
+[31.638177] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fmt/xchar.h\n'}
+[31.638212] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/version.h\n'}
+[31.638249] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks\n'}
+[31.638291] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink-inl.h\n'}
+[31.638330] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink-inl.h\n'}
+[31.638372] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/qt_sinks.h\n'}
+[31.638413] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/basic_file_sink.h\n'}
+[31.638454] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/base_sink-inl.h\n'}
+[31.638493] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/wincolor_sink.h\n'}
+[31.638528] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks-inl.h\n'}
+[31.638567] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/syslog_sink.h\n'}
+[31.638606] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/tcp_sink.h\n'}
+[31.638650] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink-inl.h\n'}
+[31.638690] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/win_eventlog_sink.h\n'}
+[31.638728] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/sink-inl.h\n'}
+[31.638772] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/sink.h\n'}
+[31.638815] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_sinks.h\n'}
+[31.638856] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/base_sink.h\n'}
+[31.638901] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink.h\n'}
+[31.638947] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/hourly_file_sink.h\n'}
+[31.639010] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/ringbuffer_sink.h\n'}
+[31.639054] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/mongo_sink.h\n'}
+[31.639097] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/android_sink.h\n'}
+[31.639140] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/msvc_sink.h\n'}
+[31.639201] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/ostream_sink.h\n'}
+[31.639243] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/daily_file_sink.h\n'}
+[31.639298] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/dup_filter_sink.h\n'}
+[31.639361] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks.h\n'}
+[31.639504] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/stdout_color_sinks-inl.h\n'}
+[31.639557] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/rotating_file_sink.h\n'}
+[31.639591] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/ansicolor_sink-inl.h\n'}
+[31.639631] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/dist_sink.h\n'}
+[31.639671] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/null_sink.h\n'}
+[31.639709] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/sinks/systemd_sink.h\n'}
+[31.639742] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/async_logger.h\n'}
+[31.639785] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/logger.h\n'}
+[31.639827] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/logger-inl.h\n'}
+[31.639884] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/spdlog.h\n'}
+[31.639948] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/common.h\n'}
+[31.639991] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/async_logger-inl.h\n'}
+[31.640054] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/tweakme.h\n'}
+[31.640092] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/common-inl.h\n'}
+[31.640154] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/cfg\n'}
+[31.640197] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/cfg/helpers-inl.h\n'}
+[31.640238] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/cfg/env.h\n'}
+[31.640279] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/cfg/argv.h\n'}
+[31.640318] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/cfg/helpers.h\n'}
+[31.640359] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/pattern_formatter-inl.h\n'}
+[31.640437] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details\n'}
+[31.640475] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/thread_pool-inl.h\n'}
+[31.640518] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/periodic_worker-inl.h\n'}
+[31.640558] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/tcp_client-windows.h\n'}
+[31.640727] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/thread_pool.h\n'}
+[31.640860] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer-inl.h\n'}
+[31.640931] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/log_msg-inl.h\n'}
+[31.641160] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/os-inl.h\n'}
+[31.641263] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/synchronous_factory.h\n'}
+[31.641296] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/periodic_worker.h\n'}
+[31.641329] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/file_helper.h\n'}
+[31.641362] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/console_globals.h\n'}
+[31.641394] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/log_msg_buffer.h\n'}
+[31.641427] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/fmt_helper.h\n'}
+[31.641459] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/tcp_client.h\n'}
+[31.641492] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/file_helper-inl.h\n'}
+[31.641635] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/null_mutex.h\n'}
+[31.641766] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/backtracer.h\n'}
+[31.641810] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/circular_q.h\n'}
+[31.641842] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/windows_include.h\n'}
+[31.641874] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/registry-inl.h\n'}
+[31.641905] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/mpmc_blocking_q.h\n'}
+[31.641936] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/log_msg.h\n'}
+[31.641968] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/registry.h\n'}
+[31.642000] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/backtracer-inl.h\n'}
+[31.642034] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/details/os.h\n'}
+[31.642069] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/formatter.h\n'}
+[31.642113] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/fwd.h\n'}
+[31.642146] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/stopwatch.h\n'}
+[31.642178] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/pattern_formatter.h\n'}
+[31.642209] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/include/spdlog/spdlog-inl.h\n'}
+[31.642240] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/aldo/ros2_ws/install/micro_ros_agent/lib\n'}
+[31.642269] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/lib/libspdlog.a\n'}
+[31.642777] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/lib/pkgconfig\n'}
+[31.642826] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/lib/pkgconfig/spdlog.pc\n'}
+[31.642859] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/lib/cmake\n'}
+[31.642891] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/lib/cmake/spdlog\n'}
+[31.642934] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets.cmake\n'}
+[31.642975] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfig.cmake\n'}
+[31.643009] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigTargets-release.cmake\n'}
+[31.643040] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/lib/cmake/spdlog/spdlogConfigVersion.cmake\n'}
+[31.654903] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mCompleted 'xrceagent'\x1b[0m\n"}
+[31.672870] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] Built target xrceagent\n'}
+[31.683686] (micro_ros_agent) StdoutLine: {'line': b"[ 56%] \x1b[34m\x1b[1mCreating directories for 'micro_ros_agent'\x1b[0m\n"}
+[31.697254] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mNo download step for 'micro_ros_agent'\x1b[0m\n"}
+[31.709994] (micro_ros_agent) StdoutLine: {'line': b"[ 68%] \x1b[34m\x1b[1mNo update step for 'micro_ros_agent'\x1b[0m\n"}
+[31.713625] (-) TimerEvent: {}
+[31.722364] (micro_ros_agent) StdoutLine: {'line': b"[ 75%] \x1b[34m\x1b[1mNo patch step for 'micro_ros_agent'\x1b[0m\n"}
+[31.734626] (micro_ros_agent) StdoutLine: {'line': b"[ 81%] \x1b[34m\x1b[1mPerforming configure step for 'micro_ros_agent'\x1b[0m\n"}
+[31.739065] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/aldo/ros2_ws/build/micro_ros_agent/micro_ros_agent-prefix/tmp/micro_ros_agent-cache-.cmake\n'}
+[31.751161] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[31.813717] (-) TimerEvent: {}
+[31.839005] (micro_ros_agent) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[31.913847] (-) TimerEvent: {}
+[31.973289] (micro_ros_agent) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[31.978052] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[32.013945] (-) TimerEvent: {}
+[32.040357] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[32.041034] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[32.048574] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_cmake: 4.6.7 (/opt/ros/jazzy/share/rosidl_cmake/cmake)\n'}
+[32.051424] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[32.060170] (micro_ros_agent) StdoutLine: {'line': b'-- Found fastrtps_cmake_module: 3.6.3 (/opt/ros/jazzy/share/fastrtps_cmake_module/cmake)\n'}
+[32.062855] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_dds_common: 3.1.1 (/opt/ros/jazzy/share/rmw_dds_common/cmake)\n'}
+[32.089714] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[32.098402] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[32.105101] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[32.113996] (-) TimerEvent: {}
+[32.117125] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[32.128833] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_shared_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_shared_cpp/cmake)\n'}
+[32.150728] (micro_ros_agent) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[32.151916] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[32.153272] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.5.6 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)\n'}
+[32.156087] (micro_ros_agent) StdoutLine: {'line': b'-- Found micro_ros_msgs: 1.0.0 (/opt/ros/jazzy/share/micro_ros_msgs/cmake)\n'}
+[32.214115] (-) TimerEvent: {}
+[32.237002] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done (0.5s)\n'}
+[32.241979] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[32.243594] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/aldo/ros2_ws/build/micro_ros_agent\n'}
+[32.258007] (micro_ros_agent) StdoutLine: {'line': b"[ 87%] \x1b[34m\x1b[1mPerforming build step for 'micro_ros_agent'\x1b[0m\n"}
+[32.282898] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/Agent.cpp.o\x1b[0m\n'}
+[32.283072] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/main.cpp.o\x1b[0m\n'}
+[32.283138] (micro_ros_agent) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_manager.cpp.o\x1b[0m\n'}
+[32.283185] (micro_ros_agent) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/graph_manager/graph_typesupport.cpp.o\x1b[0m\n'}
+[32.283222] (micro_ros_agent) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/micro_ros_agent.dir/src/agent/utils/demangle.cpp.o\x1b[0m\n'}
+[32.314277] (-) TimerEvent: {}
+[32.414991] (-) TimerEvent: {}
+[32.515809] (-) TimerEvent: {}
+[32.616304] (-) TimerEvent: {}
+[32.716948] (-) TimerEvent: {}
+[32.817482] (-) TimerEvent: {}
+[32.918025] (-) TimerEvent: {}
+[33.018532] (-) TimerEvent: {}
+[33.119067] (-) TimerEvent: {}
+[33.219579] (-) TimerEvent: {}
+[33.320149] (-) TimerEvent: {}
+[33.420642] (-) TimerEvent: {}
+[33.521153] (-) TimerEvent: {}
+[33.621645] (-) TimerEvent: {}
+[33.722181] (-) TimerEvent: {}
+[33.828362] (-) TimerEvent: {}
+[33.928894] (-) TimerEvent: {}
+[34.029392] (-) TimerEvent: {}
+[34.129917] (-) TimerEvent: {}
+[34.230425] (-) TimerEvent: {}
+[34.330949] (-) TimerEvent: {}
+[34.431448] (-) TimerEvent: {}
+[34.531980] (-) TimerEvent: {}
+[34.632489] (-) TimerEvent: {}
+[34.733039] (-) TimerEvent: {}
+[34.833533] (-) TimerEvent: {}
+[34.934107] (-) TimerEvent: {}
+[35.034738] (-) TimerEvent: {}
+[35.135299] (-) TimerEvent: {}
+[35.236044] (-) TimerEvent: {}
+[35.336525] (-) TimerEvent: {}
+[35.437062] (-) TimerEvent: {}
+[35.483585] (micro_ros_agent) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable micro_ros_agent\x1b[0m\n'}
+[35.537235] (-) TimerEvent: {}
+[35.637746] (-) TimerEvent: {}
+[35.738287] (-) TimerEvent: {}
+[35.793705] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[35.838460] (-) TimerEvent: {}
+[35.840934] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mNo install step for 'micro_ros_agent'\x1b[0m\n"}
+[35.857677] (micro_ros_agent) StdoutLine: {'line': b"\x1b[34m\x1b[1mCompleted 'micro_ros_agent'\x1b[0m\n"}
+[35.877948] (micro_ros_agent) StdoutLine: {'line': b'Built target micro_ros_agent\n'}
+[35.886007] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[35.887663] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[35.893594] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aldo/ros2_ws/build/micro_ros_agent'], 'cwd': '/home/aldo/ros2_ws/build/micro_ros_agent', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'aldo', 'LC_TIME': 'en_US.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/aldo', 'OLDPWD': '/home/aldo', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'en_US.UTF-8', 'SYSTEMD_EXEC_PID': '2870', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'aldo', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'aldo', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/aldo-ThinkPad-E16-Gen-3:@/tmp/.ICE-unix/2827,unix/aldo-ThinkPad-E16-Gen-3:/tmp/.ICE-unix/2827', 'PAPERSIZE': 'letter', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'en_US.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3ff9d902_4e3e_46fe_92ed_f711838c7dfe', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'es_ES.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_US.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.1HJPO3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.152', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'en_US.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'en_US.UTF-8', 'LC_IDENTIFICATION': 'en_US.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/aldo/ros2_ws/build/micro_ros_agent', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'en_US.UTF-8', 'LC_PAPER': 'en_US.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[35.898481] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[35.898850] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[35.899136] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[35.899433] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[35.899661] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[35.899871] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[35.900052] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[35.900245] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[35.900438] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[35.900673] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[35.900880] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[35.901045] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[35.901206] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[35.901367] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[35.901548] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[35.901792] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[35.902167] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[35.902596] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[35.903237] (micro_ros_agent) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/aldo/ros2_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""\n'}
+[35.903439] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch\n'}
+[35.903616] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/aldo/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[35.904331] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[35.916832] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[35.918811] (-) EventReactorShutdown: {}

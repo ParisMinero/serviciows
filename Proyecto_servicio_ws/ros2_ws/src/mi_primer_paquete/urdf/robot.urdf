@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<robot name="mi_robot">
+
+  <!-- ========================= -->
+  <!-- MATERIALES -->
+  <!-- ========================= -->
+  <material name="gris">
+    <color rgba="0.7 0.7 0.7 1.0"/>
+  </material>
+
+  <material name="azul">
+    <color rgba="0.2 0.4 0.9 1.0"/>
+  </material>
+
+  <material name="rojo">
+    <color rgba="0.9 0.2 0.2 1.0"/>
+  </material>
+
+  <material name="verde">
+    <color rgba="0.2 0.8 0.2 1.0"/>
+  </material>
+
+  <!-- ========================= -->
+  <!-- LINK BASE -->
+  <!-- ========================= -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <geometry>
+        <!-- Cambia esta ruta -->
+        <mesh filename="file:///home/aldo/ros2_ws/src/mi_primer_paquete/urdf/Modelos_en_stl/Ensamblaje_base.stl" scale="1 1 1"/>
+      </geometry>
+      <material name="gris"/>
+    </visual>
+
+  </link>
+
+  <!-- ========================= -->
+  <!-- LINK HOMBRO -->
+  <!-- ========================= -->
+  <link name="hombro_link">
+    <visual>
+      <origin xyz="0 0 51.7" rpy="1.5708 0 1.5708"/>
+      <geometry>
+        <mesh filename="file:///home/aldo/ros2_ws/src/mi_primer_paquete/urdf/Modelos_en_stl/Ensamblaje_hombro.stl" scale="1 1 1"/>
+      </geometry>
+      <material name="azul"/>
+    </visual>
+
+  </link>
+
+  <!-- ========================= -->
+  <!-- LINK BRAZO -->
+  <!-- ========================= -->
+  <link name="brazo_link">
+    <visual>
+      <origin xyz="0 0 47.5" rpy="0 0 1.5708"/>
+      <geometry>
+        <mesh filename="file:///home/aldo/ros2_ws/src/mi_primer_paquete/urdf/Modelos_en_stl/Ensamblaje_brazo.stl" scale="1 1 1"/>
+      </geometry>
+      <material name="rojo"/>
+    </visual>
+
+  </link>
+
+  <!-- ========================= -->
+  <!-- LINK ANTEBRAZO -->
+  <!-- ========================= -->
+  <link name="antebrazo_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 1.5708"/>
+      <geometry>
+        <mesh filename="file:///home/aldo/ros2_ws/src/mi_primer_paquete/urdf/Modelos_en_stl/Ensamblaje_antebrazo.stl" scale="1 1 1"/>
+      </geometry>
+      <material name="verde"/>
+    </visual>
+
+  </link>
+
+  <!-- ========================= -->
+  <!-- JOINT 1: BASE -> HOMBRO -->
+  <!-- El hombro gira respecto a la base -->
+  <!-- sobre eje vertical -->
+  <!-- ========================= -->
+  <joint name="joint_base_hombro" type="revolute">
+    <parent link="base_link"/>
+    <child link="hombro_link"/>
+
+    <!-- AJUSTAR -->
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+
+    <!-- eje vertical -->
+    <axis xyz="0 0 1"/>
+
+    <!-- AJUSTAR rangos -->
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1.0"/>
+  </joint>
+
+  <!-- ========================= -->
+  <!-- JOINT 2: HOMBRO -> BRAZO -->
+  <!-- Movimiento tipo articulación -->
+  <!-- normalmente alrededor de Y -->
+  <!-- ========================= -->
+  <joint name="joint_hombro_brazo" type="revolute">
+    <parent link="hombro_link"/>
+    <child link="brazo_link"/>
+
+    <!-- AJUSTAR -->
+    <origin xyz="0 0 111.7" rpy="0 0 0"/>
+
+    <!-- normalmente pitch -->
+    <axis xyz="0 1 0"/>
+
+    <!-- AJUSTAR rangos -->
+    <limit lower="-0.85" upper="1.9" effort="10" velocity="1.0"/>
+  </joint>
+
+  <!-- ========================= -->
+  <!-- JOINT 3: BRAZO -> ANTEBRAZO -->
+  <!-- Movimiento tipo codo -->
+  <!-- normalmente alrededor de Y -->
+  <!-- ========================= -->
+  <joint name="joint_brazo_antebrazo" type="revolute">
+    <parent link="brazo_link"/>
+    <child link="antebrazo_link"/>
+
+    <!-- AJUSTAR -->
+    <origin xyz="0 0 120" rpy="0 0 0"/>
+
+    <!-- normalmente pitch -->
+    <axis xyz="0 1 0"/>
+
+    <!-- AJUSTAR rangos -->
+    <limit lower="-1.57" upper="1.87" effort="10" velocity="1.0"/>
+  </joint>
+
+</robot>

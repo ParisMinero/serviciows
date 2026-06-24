@@ -1,0 +1,81 @@
+[0.777s] Invoking command in '/home/aldo/ros2_ws/src/mi_primer_paquete': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aldo/ros2_ws/build/mi_primer_paquete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mi_primer_paquete build --build-base /home/aldo/ros2_ws/build/mi_primer_paquete/build install --record /home/aldo/ros2_ws/build/mi_primer_paquete/install.log --single-version-externally-managed install_data
+[0.907s] running egg_info
+[0.908s] creating ../../build/mi_primer_paquete/mi_primer_paquete.egg-info
+[0.915s] writing ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/PKG-INFO
+[0.915s] writing dependency_links to ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/dependency_links.txt
+[0.916s] writing entry points to ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/entry_points.txt
+[0.916s] writing requirements to ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/requires.txt
+[0.916s] writing top-level names to ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/top_level.txt
+[0.916s] writing manifest file '../../build/mi_primer_paquete/mi_primer_paquete.egg-info/SOURCES.txt'
+[0.930s] reading manifest file '../../build/mi_primer_paquete/mi_primer_paquete.egg-info/SOURCES.txt'
+[0.931s] writing manifest file '../../build/mi_primer_paquete/mi_primer_paquete.egg-info/SOURCES.txt'
+[0.931s] running build
+[0.931s] running build_py
+[0.931s] creating /home/aldo/ros2_ws/build/mi_primer_paquete/build
+[0.932s] creating /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib
+[0.932s] creating /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete
+[0.932s] copying mi_primer_paquete/CinematicaInversa.py -> /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete
+[0.932s] copying mi_primer_paquete/3GDL.py -> /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete
+[0.932s] copying mi_primer_paquete/cine_inver.py -> /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete
+[0.932s] copying mi_primer_paquete/Respaldo.py -> /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete
+[0.932s] copying mi_primer_paquete/clicked_point_a_juntas.py -> /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete
+[0.939s] copying mi_primer_paquete/__init__.py -> /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete
+[0.939s] copying mi_primer_paquete/punto_objetivo.py -> /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete
+[0.939s] copying mi_primer_paquete/publicador_juntas_terminal.py -> /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete
+[0.939s] running install
+[0.942s] running install_lib
+[0.949s] creating /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete
+[0.949s] copying /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete/CinematicaInversa.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete
+[0.949s] copying /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete/3GDL.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete
+[0.950s] copying /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete/cine_inver.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete
+[0.950s] copying /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete/Respaldo.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete
+[0.950s] copying /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete/clicked_point_a_juntas.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete
+[0.950s] copying /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete/__init__.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete
+[0.950s] copying /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete/punto_objetivo.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete
+[0.950s] copying /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete/publicador_juntas_terminal.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete
+[0.950s] byte-compiling /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/CinematicaInversa.py to CinematicaInversa.cpython-312.pyc
+[0.951s] byte-compiling /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/3GDL.py to 3GDL.cpython-312.pyc
+[0.951s]   File "/home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/CinematicaInversa.py", line 17
+[0.951s]     xi = Matrix([T_0_p[0, 3],import rclpy
+[0.951s]                              ^^^^^^
+[0.951s] SyntaxError: invalid syntax
+[0.951s] 
+[0.951s] byte-compiling /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/cine_inver.py to cine_inver.cpython-312.pyc
+[0.952s] byte-compiling /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/Respaldo.py to Respaldo.cpython-312.pyc
+[0.952s] Sorry: IndentationError: expected an indented block after 'for' statement on line 123 (cine_inver.py, line 124)
+[0.953s] byte-compiling /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/clicked_point_a_juntas.py to clicked_point_a_juntas.cpython-312.pyc
+[0.954s] byte-compiling /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/__init__.py to __init__.cpython-312.pyc
+[0.954s] byte-compiling /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/punto_objetivo.py to punto_objetivo.cpython-312.pyc
+[0.955s] byte-compiling /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/publicador_juntas_terminal.py to publicador_juntas_terminal.cpython-312.pyc
+[0.955s] running install_data
+[0.955s] creating /home/aldo/ros2_ws/install/mi_primer_paquete/share/ament_index
+[0.955s] creating /home/aldo/ros2_ws/install/mi_primer_paquete/share/ament_index/resource_index
+[0.955s] creating /home/aldo/ros2_ws/install/mi_primer_paquete/share/ament_index/resource_index/packages
+[0.955s] copying resource/mi_primer_paquete -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/ament_index/resource_index/packages
+[0.955s] copying package.xml -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete
+[0.956s] creating /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/launch
+[0.956s] copying launch/display_2.launch.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/launch
+[0.956s] copying launch/display.launch.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/launch
+[0.956s] creating /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf
+[0.956s] copying urdf/prueba_2.urdf -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf
+[0.956s] copying urdf/robot.urdf -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf
+[0.958s] copying urdf/prueba.urdf -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf
+[0.965s] creating /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl
+[0.965s] copying urdf/Modelos_en_stl/Ensamblaje_base.stl -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl
+[0.967s] copying urdf/Modelos_en_stl/Ensamblaje_antebrazo.stl -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl
+[0.969s] copying urdf/Modelos_en_stl/Ensamblaje_brazo.stl -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl
+[0.969s] copying urdf/Modelos_en_stl/Ensamblaje_hombro.stl -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/urdf/Modelos_en_stl
+[0.971s] creating /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/rviz
+[0.971s] copying rviz/mi_robot.rviz -> /home/aldo/ros2_ws/install/mi_primer_paquete/share/mi_primer_paquete/rviz
+[0.971s] running install_egg_info
+[0.979s] Copying ../../build/mi_primer_paquete/mi_primer_paquete.egg-info to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete-0.0.0-py3.12.egg-info
+[0.980s] running install_scripts
+[1.034s] Installing clicked_point_a_juntas script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[1.034s] Installing publicador_juntas_terminal script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[1.035s] Installing publisher script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[1.035s] Installing punto_objetivo script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[1.035s] Installing subscriber script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[1.035s] Installing subscriber_2 script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[1.035s] Installing subscriber_inter script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[1.035s] writing list of installed files to '/home/aldo/ros2_ws/build/mi_primer_paquete/install.log'
+[1.050s] Invoked command in '/home/aldo/ros2_ws/src/mi_primer_paquete' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aldo/ros2_ws/build/mi_primer_paquete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mi_primer_paquete build --build-base /home/aldo/ros2_ws/build/mi_primer_paquete/build install --record /home/aldo/ros2_ws/build/mi_primer_paquete/install.log --single-version-externally-managed install_data

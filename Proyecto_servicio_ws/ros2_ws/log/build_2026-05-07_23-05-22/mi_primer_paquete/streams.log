@@ -1,0 +1,39 @@
+[0.623s] Invoking command in '/home/aldo/ros2_ws/src/mi_primer_paquete': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aldo/ros2_ws/build/mi_primer_paquete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mi_primer_paquete build --build-base /home/aldo/ros2_ws/build/mi_primer_paquete/build install --record /home/aldo/ros2_ws/build/mi_primer_paquete/install.log --single-version-externally-managed install_data
+[0.753s] running egg_info
+[0.760s] writing ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/PKG-INFO
+[0.760s] writing dependency_links to ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/dependency_links.txt
+[0.760s] writing entry points to ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/entry_points.txt
+[0.760s] writing requirements to ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/requires.txt
+[0.760s] writing top-level names to ../../build/mi_primer_paquete/mi_primer_paquete.egg-info/top_level.txt
+[0.775s] reading manifest file '../../build/mi_primer_paquete/mi_primer_paquete.egg-info/SOURCES.txt'
+[0.796s] writing manifest file '../../build/mi_primer_paquete/mi_primer_paquete.egg-info/SOURCES.txt'
+[0.796s] running build
+[0.796s] running build_py
+[0.796s] copying mi_primer_paquete/publicador_angulos.py -> /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete
+[0.796s] running install
+[0.800s] running install_lib
+[0.807s] copying /home/aldo/ros2_ws/build/mi_primer_paquete/build/lib/mi_primer_paquete/publicador_angulos.py -> /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete
+[0.808s] byte-compiling /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/publicador_angulos.py to publicador_angulos.cpython-312.pyc
+[0.808s] byte-compiling /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/CinematicaInversa.py to CinematicaInversa.cpython-312.pyc
+[0.808s] byte-compiling /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/cine_inver.py to cine_inver.cpython-312.pyc
+[0.808s]   File "/home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/CinematicaInversa.py", line 17
+[0.808s]     xi = Matrix([T_0_p[0, 3],import rclpy
+[0.808s]                              ^^^^^^
+[0.809s] SyntaxError: invalid syntax
+[0.809s] 
+[0.810s] running install_data
+[0.810s] Sorry: IndentationError: expected an indented block after 'for' statement on line 123 (cine_inver.py, line 124)
+[0.810s] running install_egg_info
+[0.818s] removing '/home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete-0.0.0-py3.12.egg-info' (and everything under it)
+[0.818s] Copying ../../build/mi_primer_paquete/mi_primer_paquete.egg-info to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete-0.0.0-py3.12.egg-info
+[0.818s] running install_scripts
+[0.871s] Installing clicked_point_a_juntas script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[0.871s] Installing publicador_angulos script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[0.871s] Installing publicador_juntas_terminal script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[0.871s] Installing publisher script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[0.872s] Installing punto_objetivo script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[0.872s] Installing subscriber script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[0.872s] Installing subscriber_2 script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[0.872s] Installing subscriber_inter script to /home/aldo/ros2_ws/install/mi_primer_paquete/lib/mi_primer_paquete
+[0.872s] writing list of installed files to '/home/aldo/ros2_ws/build/mi_primer_paquete/install.log'
+[0.886s] Invoked command in '/home/aldo/ros2_ws/src/mi_primer_paquete' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/aldo/ros2_ws/build/mi_primer_paquete/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mi_primer_paquete build --build-base /home/aldo/ros2_ws/build/mi_primer_paquete/build install --record /home/aldo/ros2_ws/build/mi_primer_paquete/install.log --single-version-externally-managed install_data

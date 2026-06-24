@@ -1,0 +1,9 @@
+[console_scripts]
+clicked_point_a_juntas = mi_primer_paquete.clicked_point_a_juntas:main
+joint_states_a_esp32 = mi_primer_paquete.joint_states_a_esp32:main
+publicador_juntas_terminal = mi_primer_paquete.publicador_juntas_terminal:main
+publisher = mi_primer_paquete.publisher:main
+punto_objetivo = mi_primer_paquete.punto_objetivo:main
+subscriber = mi_primer_paquete.subscriber:main
+subscriber_2 = mi_primer_paquete.subscriber_2:main
+subscriber_inter = mi_primer_paquete.subscriber_inter:main

@@ -1,0 +1,6 @@
+  File "/home/aldo/ros2_ws/install/mi_primer_paquete/lib/python3.12/site-packages/mi_primer_paquete/CinematicaInversa.py", line 17
+    xi = Matrix([T_0_p[0, 3],import rclpy
+                             ^^^^^^
+SyntaxError: invalid syntax
+
+Sorry: IndentationError: expected an indented block after 'for' statement on line 123 (cine_inver.py, line 124)
